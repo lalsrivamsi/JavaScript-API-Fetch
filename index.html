@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Mempool Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bitcoin Mempool Space</h1>
+        <p>Explore the full Bitcoin ecosystem</p>
+    </header>
+
+    <main>
+        <div class="search-form">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search transactions..." required>
+            <button class="search-button" onclick="validateSearch()">Search</button>
+            <p id="errorText" class="error"></p>
+        </div>
+
+        <div class="mempool-info">
+            <h2>Mempool Insights</h2>
+            <div class="transaction">
+                <div class="transaction-info">
+                    <strong>Transaction Fee:</strong> -82 sat/vB
+                    <span class="transaction-time">Estimated in 41 minutes</span>
+                </div>
+                <strong>Data Size:</strong> 1.81 MB
+            </div>
+
+            <div class="transaction">
+                <div class="transaction-info">
+                    <strong>Transaction Fee:</strong> -90 sat/vB
+                    <span class="transaction-time">Estimated in 30 minutes</span>
+                </div>
+                <strong>Data Size:</strong> 1.70 MB
+            </div>
+
+            <div class="transaction">
+                <div class="transaction-info">
+                    <strong>Transaction Fee:</strong> -97 sat/vB
+                    <span class="transaction-time">Estimated in 10 minutes</span>
+                </div>
+                <strong>Data Size:</strong> 1.79 MB
+            </div>
+
+            <div class="transaction">
+                <div class="transaction-info">
+                    <strong>Transaction Fee:</strong> -111 sat/vB
+                    <span class="transaction-time">Estimated in 20 minutes</span>
+                </div>
+                <strong>Data Size:</strong> 1.69 MB
+            </div>
+
+            <h3>Transaction Statistics</h3>
+            <p>Total Transactions: 4,520</p>
+            <p>Average Block Time: 10.2 minutes</p>
+            <p>Difficulty Adjustment: No Priority</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Explore</h2>
+                <a href="#">Mining Dashboard</a><br>
+                <a href="#">Lightning Explorer</a><br>
+                <a href="#">Recent Blocks</a><br>
+                <a href="#">Broadcast Transaction</a><br>
+                <a href="#">Test Transaction</a><br>
+                <a href="#">Connect to our Nodes</a><br>
+                <a href="#">API Documentation</a>
+            </div>
+            <div class="footer-section">
+                <h2>Learn</h2>
+                <a href="#">What is a mempool?</a><br>
+                <a href="#">What is a block explorer?</a><br>
+                <a href="#">What is a mempool explorer?</a><br>
+                <a href="#">Why isn't my transaction confirming?</a><br>
+                <a href="#">More FAQs »</a>
+            </div>
+            <div class="footer-section">
+                <h2>Networks</h2>
+                <a href="#">Testnet3 Explorer</a><br>
+                <a href="#">Testnet4 Explorer</a><br>
+                <a href="#">Signet Explorer</a><br>
+                <a href="#">Liquid Testnet Explorer</a><br>
+                <a href="#">Liquid Explorer</a>
+            </div>
+            <div class="footer-section">
+                <h2>Legal</h2>
+                <a href="#">Terms of Service</a><br>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Trademark Policy</a><br>
+                <a href="#">Third-party Licenses</a>
+            </div>
+        </div>
+    </footer>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Mempool Space Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

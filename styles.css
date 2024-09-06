@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ea3838;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mempool-info {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.mempool-info h2 {
+    margin-top: 0;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+
+.transaction-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.transaction-time {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* General footer styling */
+footer {
+    background-color: #5bb2c0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Ensures sections wrap on smaller screens */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, minimum width */
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-section h2 {
+    color: #f3f2ec;
+}
+
+.footer-section a {
+    color: #0c0801;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+    .footer-section {
+        text-align: center;
+    }
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #94e3a1;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px;
+    background-color: #1fafbe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
